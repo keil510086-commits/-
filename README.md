@@ -28,7 +28,7 @@ gh auth login
 登录成功后创建仓库并推送：
 
 ```bash
-cd "d:\Users\25591\Desktop\新建文件夹"
+cd "d:\Users\25591\Desktop\新建文件夹\团会"
 gh repo create 团会 --public --source=. --remote=origin --push --description "大一班会文字冒险 Streamlit 互动游戏"
 ```
 
@@ -40,7 +40,7 @@ gh repo create 团会 --public --source=. --remote=origin --push --description "
 2. 在终端执行（将 `你的用户名` 和 `仓库名` 替换为实际值）：
 
 ```bash
-cd "d:\Users\25591\Desktop\新建文件夹"
+cd "d:\Users\25591\Desktop\新建文件夹\团会"
 git remote add origin https://github.com/你的用户名/仓库名.git
 git push -u origin main
 ```
