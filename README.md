@@ -29,10 +29,10 @@ gh auth login
 
 ```bash
 cd "d:\Users\25591\Desktop\新建文件夹"
-gh repo create freshman-text-adventure --public --source=. --remote=origin --push --description "大一班会文字冒险 Streamlit 互动游戏"
+gh repo create 团会 --public --source=. --remote=origin --push --description "大一班会文字冒险 Streamlit 互动游戏"
 ```
 
-> 仓库名 `freshman-text-adventure` 可改成你喜欢的名字；若 GitHub 上已有同名仓库，换一个即可。
+> 仓库名为 `团会`；若 GitHub 上已有同名仓库，换一个即可。
 
 ### 方式二：在网页手动创建
 
