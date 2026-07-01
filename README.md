@@ -28,7 +28,7 @@ gh auth login
 登录成功后创建仓库并推送：
 
 ```bash
-cd "d:\Users\25591\Desktop\新建文件夹\团会"
+cd "%USERPROFILE%\Desktop\新建文件夹\团会"
 gh repo create 团会 --public --source=. --remote=origin --push --description "大一班会文字冒险 Streamlit 互动游戏"
 ```
 
@@ -40,8 +40,8 @@ gh repo create 团会 --public --source=. --remote=origin --push --description "
 2. 在终端执行（将 `你的用户名` 和 `仓库名` 替换为实际值）：
 
 ```bash
-cd "d:\Users\25591\Desktop\新建文件夹\团会"
-git remote add origin https://github.com/你的用户名/仓库名.git
+cd "%USERPROFILE%\Desktop\新建文件夹\团会"（或%HOMEPATH%）
+git remote add origin https://github.com/keil510086-commits/-.git
 git push -u origin main
 ```
 
@@ -52,11 +52,11 @@ git push -u origin main
 3. 选择本仓库，主文件填 `app.py`，点击 Deploy
 4. 部署完成后会获得 `https://xxx.streamlit.app` 网址，可直接分享
 
-> 接口密钥建议在 Streamlit Cloud 的 **Secrets** 中配置，不要写入代码。
+> 接口密钥建议在 Streamlit Cloud 的 `Secrets` 中配置，**不要写入代码**。
 
 ## 详细说明
 
-请参阅 [操作指南.md](操作指南.md)。
+请参阅 [操作指南](./操作指南.md)。
 
 ## 文件说明
 
